@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-TestNG_Suite">
-              <span class="suite-name border-passed">TestNG Suite</span>
+              <span class="suite-name border-skipped">TestNG Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-TestNG_Suite">
-                    <span>E:\Selenium_Projects\NOV11\TestNG_Reports\Suite.xml</span>
+                    <span>G:\GitWithJenkins\TestNG_Reports\Suite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,31 +90,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">3 methods,  3 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-TestNG_Suite" class="hide-methods passed suite-TestNG_Suite"> (hide)</a> <!-- hide-methods passed suite-TestNG_Suite -->
-                      <a href="#" panel-name="suite-TestNG_Suite" class="show-methods passed suite-TestNG_Suite"> (show)</a> <!-- show-methods passed suite-TestNG_Suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-TestNG_Suite" class="hide-methods skipped suite-TestNG_Suite"> (hide)</a> <!-- hide-methods skipped suite-TestNG_Suite -->
+                      <a href="#" panel-name="suite-TestNG_Suite" class="show-methods skipped suite-TestNG_Suite"> (show)</a> <!-- show-methods skipped suite-TestNG_Suite -->
                     </span>
-                    <div class="method-list-content passed suite-TestNG_Suite">
+                    <div class="method-list-content skipped suite-TestNG_Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="myPack1.TC03" hash-for-method="atTestCricinfo">atTestCricinfo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="myPack1.TC02" hash-for-method="atTestGmail">atTestGmail</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="myPack1.TC01" hash-for-method="atTestGoogle">atTestGoogle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-TestNG_Suite -->
+                    </div> <!-- method-list-content skipped suite-TestNG_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -126,39 +126,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-TestNG_Suite" class="panel TestNG_Suite">
-          <div class="suite-TestNG_Suite-class-passed">
+          <div class="suite-TestNG_Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">myPack1.TC03</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="atTestCricinfo">
-                  </a> <!-- atTestCricinfo -->
-                  <span class="method-name">atTestCricinfo</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestNG_Suite-class-passed -->
-          <div class="suite-TestNG_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">myPack1.TC01</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="atTestGoogle">
-                  </a> <!-- atTestGoogle -->
-                  <span class="method-name">atTestGoogle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestNG_Suite-class-passed -->
-          <div class="suite-TestNG_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">myPack1.TC02</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -170,17 +140,47 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestNG_Suite-class-passed -->
+          </div> <!-- suite-TestNG_Suite-class-skipped -->
+          <div class="suite-TestNG_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">myPack1.TC03</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="atTestCricinfo">
+                  </a> <!-- atTestCricinfo -->
+                  <span class="method-name">atTestCricinfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Suite-class-skipped -->
+          <div class="suite-TestNG_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">myPack1.TC01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="atTestGoogle">
+                  </a> <!-- atTestGoogle -->
+                  <span class="method-name">atTestGoogle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Suite-class-skipped -->
         </div> <!-- panel TestNG_Suite -->
         <div panel-name="test-xml-TestNG_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\Selenium_Projects\NOV11\TestNG_Reports\Suite.xml</span>
+            <span class="header-content">G:\GitWithJenkins\TestNG_Reports\Suite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;TestNG Suite&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestNG Suite&quot;&gt;
   &lt;test name=&quot;Google Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;myPack1.TC01&quot;/&gt;
@@ -241,22 +241,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'atTestCricinfo')
-data.setCell(0, 2, 'myPack1.TC03')
-data.setCell(0, 3, 19439);
+data.setCell(0, 1, 'atTestGmail')
+data.setCell(0, 2, 'myPack1.TC02')
+data.setCell(0, 3, 1);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'atTestGoogle')
 data.setCell(1, 2, 'myPack1.TC01')
-data.setCell(1, 3, 4397);
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'atTestGmail')
-data.setCell(2, 2, 'myPack1.TC02')
-data.setCell(2, 3, 2810);
+data.setCell(2, 1, 'atTestCricinfo')
+data.setCell(2, 2, 'myPack1.TC03')
+data.setCell(2, 3, 0);
 window.suiteTableData['TestNG_Suite']= { tableData: data, tableDiv: 'times-div-TestNG_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 1 ms</span>
               <div id="times-div-TestNG_Suite">
               </div> <!-- times-div-TestNG_Suite -->
             </div> <!-- times-div -->
@@ -284,53 +284,41 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">myPack1.TC01</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">atStart</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">atTestGoogle</span>
-                <span class="method-start">13582 ms</span>
+                <span class="method-start">19598 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">atAfter</span>
-                <span class="method-start">17979 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">myPack1.TC02</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">atStart</span>
-                <span class="method-start">20161 ms</span>
+                <span class="method-start">19705 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">atTestGmail</span>
-                <span class="method-start">29479 ms</span>
+                <span class="method-start">67533 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">atAfter</span>
-                <span class="method-start">32289 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">myPack1.TC03</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">atStart</span>
-                <span class="method-start">32623 ms</span>
+                <span class="method-start">67563 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">atTestCricinfo</span>
-                <span class="method-start">40477 ms</span>
+                <span class="method-start">113342 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">atAfter</span>
-                <span class="method-start">59917 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

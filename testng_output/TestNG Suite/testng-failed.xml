@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Suite]">
+  <test name="Google Test(failed)">
+    <classes>
+      <class name="myPack1.TC02">
+        <methods>
+          <include name="atStart"/>
+        </methods>
+      </class> <!-- myPack1.TC02 -->
+      <class name="myPack1.TC03">
+        <methods>
+          <include name="atStart"/>
+        </methods>
+      </class> <!-- myPack1.TC03 -->
+      <class name="myPack1.TC01">
+        <methods>
+          <include name="atTestGoogle"/>
+          <include name="atStart"/>
+        </methods>
+      </class> <!-- myPack1.TC01 -->
+    </classes>
+  </test> <!-- Google Test(failed) -->
+  <test name="Gmail Test(failed)">
+    <classes>
+      <class name="myPack1.TC02">
+        <methods>
+          <include name="atTestGmail"/>
+          <include name="atStart"/>
+        </methods>
+      </class> <!-- myPack1.TC02 -->
+      <class name="myPack1.TC03">
+        <methods>
+          <include name="atStart"/>
+        </methods>
+      </class> <!-- myPack1.TC03 -->
+      <class name="myPack1.TC01">
+        <methods>
+          <include name="atStart"/>
+        </methods>
+      </class> <!-- myPack1.TC01 -->
+    </classes>
+  </test> <!-- Gmail Test(failed) -->
+  <test name="Cricinfo Test(failed)">
+    <classes>
+      <class name="myPack1.TC02">
+        <methods>
+          <include name="atStart"/>
+        </methods>
+      </class> <!-- myPack1.TC02 -->
+      <class name="myPack1.TC03">
+        <methods>
+          <include name="atTestCricinfo"/>
+          <include name="atStart"/>
+        </methods>
+      </class> <!-- myPack1.TC03 -->
+      <class name="myPack1.TC01">
+        <methods>
+          <include name="atStart"/>
+        </methods>
+      </class> <!-- myPack1.TC01 -->
+    </classes>
+  </test> <!-- Cricinfo Test(failed) -->
+</suite> <!-- Failed suite [TestNG Suite] -->

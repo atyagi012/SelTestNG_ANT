@@ -1,71 +1,181 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">TestNG Suite</th></tr><tr><td><a href="#t0">Google Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">20,144</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">Gmail Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">12,440</td><td></td><td></td></tr><tr><td><a href="#t2">Cricinfo Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">27,657</td><td></td><td></td></tr><tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num">60,241</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNG Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Google Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">myPack1.TC01</td><td><a href="#m0">atAfter</a></td><td rowspan="1">1441942429915</td><td rowspan="1">0</td></tr><tr><th colspan="4">Google Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">myPack1.TC01</td><td><a href="#m1">atTestGoogle</a></td><td rowspan="1">1441942425518</td><td rowspan="1">4397</td></tr></tbody><tbody id="t1"><tr><th colspan="4">Gmail Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">myPack1.TC02</td><td><a href="#m2">atAfter</a></td><td rowspan="1">1441942444225</td><td rowspan="1">0</td></tr><tr><th colspan="4">Gmail Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">myPack1.TC02</td><td><a href="#m3">atTestGmail</a></td><td rowspan="1">1441942441415</td><td rowspan="1">2810</td></tr></tbody><tbody id="t2"><tr><th colspan="4">Cricinfo Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">myPack1.TC03</td><td><a href="#m4">atAfter</a></td><td rowspan="1">1441942471853</td><td rowspan="1">0</td></tr><tr><th colspan="4">Cricinfo Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">myPack1.TC03</td><td><a href="#m5">atTestCricinfo</a></td><td rowspan="1">1441942452413</td><td rowspan="1">19439</td></tr></tbody></table><h2>Google Test</h2><h3 id="m0">myPack1.TC01#atAfter</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: &apos;2.47.1&apos;, revision: &apos;411b314&apos;, time: &apos;2015-07-30 03:03:16&apos;
-System info: host: &apos;AMIT-PC&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">TestNG Suite</th></tr><tr><td><a href="#t0">Google Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">19,627</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">Gmail Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">47,829</td><td></td><td></td></tr><tr><td><a href="#t2">Cricinfo Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">45,779</td><td></td><td></td></tr><tr><th>Total</th><th class="num">0</th><th class="num attn">3</th><th class="num">0</th><th class="num">113,235</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNG Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Google Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">myPack1.TC01</td><td><a href="#m0">atStart</a></td><td rowspan="1">1506129049228</td><td rowspan="1">0</td></tr><tr><th colspan="4">Google Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">myPack1.TC01</td><td><a href="#m1">atAfter</a></td><td rowspan="1">1506129068827</td><td rowspan="1">0</td></tr><tr><th colspan="4">Google Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">myPack1.TC01</td><td><a href="#m2">atTestGoogle</a></td><td rowspan="1">1506129068826</td><td rowspan="1">0</td></tr></tbody><tbody id="t1"><tr><th colspan="4">Gmail Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">myPack1.TC02</td><td><a href="#m3">atStart</a></td><td rowspan="1">1506129068933</td><td rowspan="1">0</td></tr><tr><th colspan="4">Gmail Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">myPack1.TC02</td><td><a href="#m4">atAfter</a></td><td rowspan="1">1506129116762</td><td rowspan="1">0</td></tr><tr><th colspan="4">Gmail Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">myPack1.TC02</td><td><a href="#m5">atTestGmail</a></td><td rowspan="1">1506129116761</td><td rowspan="1">1</td></tr></tbody><tbody id="t2"><tr><th colspan="4">Cricinfo Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">myPack1.TC03</td><td><a href="#m6">atStart</a></td><td rowspan="1">1506129116791</td><td rowspan="1">0</td></tr><tr><th colspan="4">Cricinfo Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">myPack1.TC03</td><td><a href="#m7">atAfter</a></td><td rowspan="1">1506129162570</td><td rowspan="1">0</td></tr><tr><th colspan="4">Cricinfo Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">myPack1.TC03</td><td><a href="#m8">atTestCricinfo</a></td><td rowspan="1">1506129162570</td><td rowspan="1">0</td></tr></tbody></table><h2>Google Test</h2><h3 id="m0">myPack1.TC01#atStart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;AMIT-PC&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
 Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:464)
-	at myPack1.TC01.atAfter(Unknown Source)
-Caused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn&apos;t taskkill it: exec return code 1: ERROR: Out of memory
-
-
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:142)
-	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:247)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$2(UnixProcess.java:246)
-	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:125)
-	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
-	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)
+Session ID: 9e00555c4c72d3ab0f9c5a5f8a47cbd6
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\AMIT\AppData\Local\Temp\scoped_dir9320_27234}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=60.0.3112.113, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
+	at myPack1.TC01.atStart(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;AMIT-PC&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:91)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 27 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:189)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	... 28 more
-Caused by: java.lang.RuntimeException: exec return code 1: ERROR: Out of memory
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">myPack1.TC01#atAfter</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">myPack1.TC01#atTestGoogle</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Gmail Test</h2><h3 id="m3">myPack1.TC02#atStart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ype&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1459872390313,&quot;updateDate&quot;:1459872390313,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:22012,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0.1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1506129075251	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1506129075252	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;{0153E448-190B-4987-BDE1-F256CADA672F}&quot;,&quot;syncGUID&quot;:&quot;PBrmPHq9uQqm&quot;,&quot;location&quot;:&quot;winreg-app-global&quot;,&quot;version&quot;:&quot;15.0.6&quot;,&quot;type&quot;:&quot;extension&quot;,&quot;internalName&quot;:null,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{},&quot;iconURL&quot;:&quot;chrome://browserrecord/skin/rp_logo.png&quot;,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;RealPlayer Browser Record Plugin&quot;,&quot;description&quot;:&quot;Detects all recordable content on the browser&quot;,&quot;creator&quot;:&quot;Real Networks, Inc.&quot;,&quot;homepageURL&quot;:&quot;http://www.real.com&quot;},&quot;visible&quot;:true,&quot;active&quot;:false,&quot;userDisabled&quot;:true,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\ProgramData\\Real\\RealPlayer\\BrowserRecordPlugin\\Firefox\\Ext&quot;,&quot;installDate&quot;:1500239465017,&quot;updateDate&quot;:1500239465017,&quot;applyBackgroundUpdates&quot;:1,&quot;bootstrap&quot;:false,&quot;skinnable&quot;:false,&quot;size&quot;:84573,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:true,&quot;hasBinaryComponents&quot;:true,&quot;strictCompatibility&quot;:false,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;1.5&quot;,&quot;maxVersion&quot;:&quot;99.*&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false,&quot;signedState&quot;:0,&quot;seen&quot;:true}
+1506129075253	DeferredSave.extensions.json	DEBUG	Save changes
+1506129075254	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1506129075254	addons.xpi-utils	DEBUG	Updating add-on states
+1506129075256	addons.xpi-utils	DEBUG	Writing add-ons list
+1506129075262	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1506129075264	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 0.1
+1506129075298	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1506129075299	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1506129075299	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1506129075318	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1506129075319	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 8.0.0.9103
+1506129075419	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1506129075420	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1506129075420	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1506129075420	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1506129075420	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1506129075421	addons.manager	DEBUG	Starting provider: GMPProvider
+1506129075429	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1506129075429	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1506129075429	addons.manager	DEBUG	Starting provider: PluginProvider
+1506129075429	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1506129075430	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1506129075430	addons.manager	DEBUG	Completed startup sequence
 
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;AMIT-PC&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at myPack1.TC02.atStart(Unknown Source)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ype&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1459872390313,&quot;updateDate&quot;:1459872390313,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:22012,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0.1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1506129075251	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1506129075252	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;{0153E448-190B-4987-BDE1-F256CADA672F}&quot;,&quot;syncGUID&quot;:&quot;PBrmPHq9uQqm&quot;,&quot;location&quot;:&quot;winreg-app-global&quot;,&quot;version&quot;:&quot;15.0.6&quot;,&quot;type&quot;:&quot;extension&quot;,&quot;internalName&quot;:null,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{},&quot;iconURL&quot;:&quot;chrome://browserrecord/skin/rp_logo.png&quot;,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;RealPlayer Browser Record Plugin&quot;,&quot;description&quot;:&quot;Detects all recordable content on the browser&quot;,&quot;creator&quot;:&quot;Real Networks, Inc.&quot;,&quot;homepageURL&quot;:&quot;http://www.real.com&quot;},&quot;visible&quot;:true,&quot;active&quot;:false,&quot;userDisabled&quot;:true,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\ProgramData\\Real\\RealPlayer\\BrowserRecordPlugin\\Firefox\\Ext&quot;,&quot;installDate&quot;:1500239465017,&quot;updateDate&quot;:1500239465017,&quot;applyBackgroundUpdates&quot;:1,&quot;bootstrap&quot;:false,&quot;skinnable&quot;:false,&quot;size&quot;:84573,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:true,&quot;hasBinaryComponents&quot;:true,&quot;strictCompatibility&quot;:false,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;1.5&quot;,&quot;maxVersion&quot;:&quot;99.*&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false,&quot;signedState&quot;:0,&quot;seen&quot;:true}
+1506129075253	DeferredSave.extensions.json	DEBUG	Save changes
+1506129075254	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1506129075254	addons.xpi-utils	DEBUG	Updating add-on states
+1506129075256	addons.xpi-utils	DEBUG	Writing add-ons list
+1506129075262	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1506129075264	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 0.1
+1506129075298	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1506129075299	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1506129075299	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1506129075318	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1506129075319	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 8.0.0.9103
+1506129075419	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1506129075420	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1506129075420	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1506129075420	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1506129075420	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1506129075421	addons.manager	DEBUG	Starting provider: GMPProvider
+1506129075429	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1506129075429	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1506129075429	addons.manager	DEBUG	Starting provider: PluginProvider
+1506129075429	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1506129075430	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1506129075430	addons.manager	DEBUG	Completed startup sequence
 
-	at org.openqa.selenium.os.WindowsUtils.killPID(WindowsUtils.java:179)
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:138)
-	... 36 more
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">myPack1.TC01#atTestGoogle</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Gmail Test</h2><h3 id="m2">myPack1.TC02#atAfter</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn&apos;t taskkill it: exec return code 1: ERROR: Out of memory
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 32 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">myPack1.TC02#atAfter</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">myPack1.TC02#atTestGmail</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Cricinfo Test</h2><h3 id="m6">myPack1.TC03#atStart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ype&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1459872390313,&quot;updateDate&quot;:1459872390313,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:22012,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0.1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1506129118470	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1506129118471	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;{0153E448-190B-4987-BDE1-F256CADA672F}&quot;,&quot;syncGUID&quot;:&quot;84URaPNm135j&quot;,&quot;location&quot;:&quot;winreg-app-global&quot;,&quot;version&quot;:&quot;15.0.6&quot;,&quot;type&quot;:&quot;extension&quot;,&quot;internalName&quot;:null,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{},&quot;iconURL&quot;:&quot;chrome://browserrecord/skin/rp_logo.png&quot;,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;RealPlayer Browser Record Plugin&quot;,&quot;description&quot;:&quot;Detects all recordable content on the browser&quot;,&quot;creator&quot;:&quot;Real Networks, Inc.&quot;,&quot;homepageURL&quot;:&quot;http://www.real.com&quot;},&quot;visible&quot;:true,&quot;active&quot;:false,&quot;userDisabled&quot;:true,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\ProgramData\\Real\\RealPlayer\\BrowserRecordPlugin\\Firefox\\Ext&quot;,&quot;installDate&quot;:1500239465017,&quot;updateDate&quot;:1500239465017,&quot;applyBackgroundUpdates&quot;:1,&quot;bootstrap&quot;:false,&quot;skinnable&quot;:false,&quot;size&quot;:84573,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:true,&quot;hasBinaryComponents&quot;:true,&quot;strictCompatibility&quot;:false,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;1.5&quot;,&quot;maxVersion&quot;:&quot;99.*&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false,&quot;signedState&quot;:0,&quot;seen&quot;:true}
+1506129118472	DeferredSave.extensions.json	DEBUG	Save changes
+1506129118473	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1506129118473	addons.xpi-utils	DEBUG	Updating add-on states
+1506129118474	addons.xpi-utils	DEBUG	Writing add-ons list
+1506129118480	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1506129118482	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 0.1
+1506129118513	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1506129118513	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1506129118513	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1506129118530	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1506129118531	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 8.0.0.9103
+1506129118626	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1506129118626	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1506129118626	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1506129118626	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1506129118627	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1506129118627	addons.manager	DEBUG	Starting provider: GMPProvider
+1506129118636	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1506129118636	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1506129118636	addons.manager	DEBUG	Starting provider: PluginProvider
+1506129118636	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1506129118637	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1506129118637	addons.manager	DEBUG	Completed startup sequence
 
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;AMIT-PC&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_25&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at myPack1.TC03.atStart(Unknown Source)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ype&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1459872390313,&quot;updateDate&quot;:1459872390313,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:22012,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0.1&quot;,&quot;maxVersion&quot;:&quot;45.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1506129118470	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1506129118471	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;{0153E448-190B-4987-BDE1-F256CADA672F}&quot;,&quot;syncGUID&quot;:&quot;84URaPNm135j&quot;,&quot;location&quot;:&quot;winreg-app-global&quot;,&quot;version&quot;:&quot;15.0.6&quot;,&quot;type&quot;:&quot;extension&quot;,&quot;internalName&quot;:null,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{},&quot;iconURL&quot;:&quot;chrome://browserrecord/skin/rp_logo.png&quot;,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;RealPlayer Browser Record Plugin&quot;,&quot;description&quot;:&quot;Detects all recordable content on the browser&quot;,&quot;creator&quot;:&quot;Real Networks, Inc.&quot;,&quot;homepageURL&quot;:&quot;http://www.real.com&quot;},&quot;visible&quot;:true,&quot;active&quot;:false,&quot;userDisabled&quot;:true,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\ProgramData\\Real\\RealPlayer\\BrowserRecordPlugin\\Firefox\\Ext&quot;,&quot;installDate&quot;:1500239465017,&quot;updateDate&quot;:1500239465017,&quot;applyBackgroundUpdates&quot;:1,&quot;bootstrap&quot;:false,&quot;skinnable&quot;:false,&quot;size&quot;:84573,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:true,&quot;hasBinaryComponents&quot;:true,&quot;strictCompatibility&quot;:false,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;1.5&quot;,&quot;maxVersion&quot;:&quot;99.*&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false,&quot;signedState&quot;:0,&quot;seen&quot;:true}
+1506129118472	DeferredSave.extensions.json	DEBUG	Save changes
+1506129118473	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1506129118473	addons.xpi-utils	DEBUG	Updating add-on states
+1506129118474	addons.xpi-utils	DEBUG	Writing add-ons list
+1506129118480	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1506129118482	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 0.1
+1506129118513	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1506129118513	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1506129118513	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1506129118530	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1506129118531	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 8.0.0.9103
+1506129118626	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1506129118626	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1506129118626	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1506129118626	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1506129118627	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1506129118627	addons.manager	DEBUG	Starting provider: GMPProvider
+1506129118636	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1506129118636	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1506129118636	addons.manager	DEBUG	Starting provider: PluginProvider
+1506129118636	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1506129118637	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1506129118637	addons.manager	DEBUG	Completed startup sequence
 
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:142)
-	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:247)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$2(UnixProcess.java:246)
-	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:125)
-	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
-	at org.openqa.selenium.firefox.FirefoxBinary.quit(FirefoxBinary.java:259)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.quit(NewProfileExtensionConnection.java:204)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.quit(FirefoxDriver.java:377)
-	at org.openqa.selenium.firefox.FirefoxDriver.stopClient(FirefoxDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:467)
-	at myPack1.TC02.atAfter(Unknown Source)
-Caused by: java.lang.RuntimeException: exec return code 1: ERROR: Out of memory
-
-
-	at org.openqa.selenium.os.WindowsUtils.killPID(WindowsUtils.java:179)
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:138)
-	... 36 more
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">myPack1.TC02#atTestGmail</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Cricinfo Test</h2><h3 id="m4">myPack1.TC03#atAfter</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn&apos;t taskkill it: exec return code 1: ERROR: Out of memory
-
-
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:142)
-	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:247)
-	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$2(UnixProcess.java:246)
-	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:125)
-	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
-	at org.openqa.selenium.firefox.FirefoxBinary.quit(FirefoxBinary.java:259)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.quit(NewProfileExtensionConnection.java:204)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.quit(FirefoxDriver.java:377)
-	at org.openqa.selenium.firefox.FirefoxDriver.stopClient(FirefoxDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:467)
-	at myPack1.TC03.atAfter(Unknown Source)
-Caused by: java.lang.RuntimeException: exec return code 1: ERROR: Out of memory
-
-
-	at org.openqa.selenium.os.WindowsUtils.killPID(WindowsUtils.java:179)
-	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:138)
-	... 36 more
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">myPack1.TC03#atTestCricinfo</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 32 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">myPack1.TC03#atAfter</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">myPack1.TC03#atTestCricinfo</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
