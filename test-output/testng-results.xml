@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Suite" duration-ms="105243" started-at="2015-09-11T03:23:13Z" finished-at="2015-09-11T03:24:58Z">
+    <groups>
+    </groups>
+    <test name="Google Test" duration-ms="54384" started-at="2015-09-11T03:23:13Z" finished-at="2015-09-11T03:24:07Z">
+      <class name="myPack1.TC01">
+        <test-method status="PASS" signature="atStart()[pri:0, instance:myPack1.TC01@9e5e21]" name="atStart" is-config="true" duration-ms="49387" started-at="2015-09-11T08:53:13Z" finished-at="2015-09-11T08:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atStart -->
+        <test-method status="PASS" signature="atTestGoogle()[pri:0, instance:myPack1.TC01@9e5e21]" name="atTestGoogle" duration-ms="3969" started-at="2015-09-11T08:54:02Z" finished-at="2015-09-11T08:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atTestGoogle -->
+        <test-method status="PASS" signature="atAfter()[pri:0, instance:myPack1.TC01@9e5e21]" name="atAfter" is-config="true" duration-ms="920" started-at="2015-09-11T08:54:06Z" finished-at="2015-09-11T08:54:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atAfter -->
+      </class> <!-- myPack1.TC01 -->
+    </test> <!-- Google Test -->
+    <test name="Gmail Test" duration-ms="17421" started-at="2015-09-11T03:24:07Z" finished-at="2015-09-11T03:24:25Z">
+      <class name="myPack1.TC02">
+        <test-method status="PASS" signature="atStart()[pri:0, instance:myPack1.TC02@1eacdc4]" name="atStart" is-config="true" duration-ms="13636" started-at="2015-09-11T08:54:07Z" finished-at="2015-09-11T08:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atStart -->
+        <test-method status="PASS" signature="atTestGmail()[pri:0, instance:myPack1.TC02@1eacdc4]" name="atTestGmail" duration-ms="3398" started-at="2015-09-11T08:54:21Z" finished-at="2015-09-11T08:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atTestGmail -->
+        <test-method status="PASS" signature="atAfter()[pri:0, instance:myPack1.TC02@1eacdc4]" name="atAfter" is-config="true" duration-ms="380" started-at="2015-09-11T08:54:24Z" finished-at="2015-09-11T08:54:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atAfter -->
+      </class> <!-- myPack1.TC02 -->
+    </test> <!-- Gmail Test -->
+    <test name="Cricinfo Test" duration-ms="33119" started-at="2015-09-11T03:24:25Z" finished-at="2015-09-11T03:24:58Z">
+      <class name="myPack1.TC03">
+        <test-method status="PASS" signature="atStart()[pri:0, instance:myPack1.TC03@17ff759]" name="atStart" is-config="true" duration-ms="14468" started-at="2015-09-11T08:54:25Z" finished-at="2015-09-11T08:54:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atStart -->
+        <test-method status="PASS" signature="atTestCricinfo()[pri:0, instance:myPack1.TC03@17ff759]" name="atTestCricinfo" duration-ms="17814" started-at="2015-09-11T08:54:39Z" finished-at="2015-09-11T08:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atTestCricinfo -->
+        <test-method status="PASS" signature="atAfter()[pri:0, instance:myPack1.TC03@17ff759]" name="atAfter" is-config="true" duration-ms="835" started-at="2015-09-11T08:54:57Z" finished-at="2015-09-11T08:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atAfter -->
+      </class> <!-- myPack1.TC03 -->
+    </test> <!-- Cricinfo Test -->
+  </suite> <!-- TestNG Suite -->
+</testng-results>

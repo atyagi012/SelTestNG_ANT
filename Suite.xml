@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNG Suite" verbose="1" >
+  
+  <test name="Google Test" >
+    <classes>
+       <class name="myPack1.TC01" />
+    </classes>
+  </test>
+  
+  <test name="Gmail Test" >
+    <classes>
+       <class name="myPack1.TC02" />
+    </classes>
+  </test>
+  
+  <test name="Cricinfo Test" >
+    <classes>
+       <class name="myPack1.TC03" />
+    </classes>
+  </test>
+ 
+  
+</suite>
