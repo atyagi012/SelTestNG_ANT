@@ -12,7 +12,9 @@ public class TC03 {
 	
 	@BeforeMethod
 	public void atStart(){
-		driver = new FirefoxDriver();
+		//driver = new FirefoxDriver();
+		String filePath = System.getProperty("user.dir") + "/Drivers";
+		System.setProperty("webdriver.chrome.driver", filePath + "\\chromedriver.exe");
 		driver.manage().window().maximize();
 		
 		url = "http://www.cricinfo.com";

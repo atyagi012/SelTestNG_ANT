@@ -14,8 +14,9 @@ public class TC01 {
 	@BeforeMethod
 	public void atStart(){
 		//driver = new FirefoxDriver();
-		
-		System.setProperty("webdriver.chrome.driver", "E:\\Selenium_Projects\\Selenium_Files\\Chrome_Driver_New\\chromedriver.exe");
+		String filePath = System.getProperty("user.dir") + "/Drivers";
+		System.setProperty("webdriver.chrome.driver", filePath + "\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "E:\\Selenium_Projects\\Selenium_Files\\Chrome_Driver_New\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
